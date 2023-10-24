@@ -7,42 +7,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-all">
         <h1>Générateur de Mot de Passe</h1>
-        <div>
+
+        <div class="container-options">
+
             <input type="number" id="length" min="6" max="100" value="20">
             <label for="length">Longueur du Mot de Passe</label>
-        </div>
-        <div>
+        
             <select id="numPasswords"></select>
             <label for="numPasswords">Nombre de Mots de Passe à Générer</label>
-        </div>
-        <div>
+        
             <input type="checkbox" id="lowercase" checked>
             <label for="lowercase">Lettres minuscules</label>
-        </div>
-        <div>
+        
             <input type="checkbox" id="uppercase" checked>
             <label for="uppercase">Lettres majuscules</label>
-        </div>
-        <div>
+        
             <input type="checkbox" id="numbers" checked>
             <label for="numbers">Chiffres</label>
-        </div>
-        <div>
+        
             <input type="checkbox" id="specialChars">
             <label for="specialChars">Caractères spéciaux</label>
-        </div>
-        <div>
+        
             <input type="checkbox" id="removeSimilar" checked>
             <label for="removeSimilar">Retirer les caractères similaires</label>
+
+            <button id="generate">Générer</button>
+
         </div>
-        <button id="generate">Générer le Mot de Passe</button>
-        <button id="copy">Copier le Mot de Passe</button>
+
         <div class="result">
+
             <label for="password-output">Mots de Passe :</label>
             <div class="password-container"></div>
+            
         </div>
+
     </div>
     <script src="js/script.js"></script>
 </body>
