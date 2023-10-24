@@ -73,8 +73,15 @@ h2 {
     margin-bottom: 10%;
 }
 
-.password-container {
+.result {
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.password-container {
     justify-content: center;
 }
 
