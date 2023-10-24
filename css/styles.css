@@ -73,16 +73,10 @@ h2 {
     margin-bottom: 10%;
 }
 
-.result {
+.password-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.password-container {
-    justify-content: center;
 }
 
 .password-container input {
