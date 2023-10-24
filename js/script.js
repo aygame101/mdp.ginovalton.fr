@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function () {
             copyButton.addEventListener("click", function () {
                 passwordInput.select();
                 document.execCommand("copy");
-                alert("Mot de Passe copié dans le Presse-papiers !");
             });
         }
     }
