@@ -37,8 +37,8 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 19px;
@@ -49,6 +49,7 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     transition: 0.5s;
+    margin-bottom: 10%;
 }
 
 #generate:hover {
@@ -57,8 +58,8 @@ h2 {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
     padding-top: 7px;
     padding-bottom: 7px;
     font-size: 19px;
@@ -69,6 +70,36 @@ h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     transition: 0.5s;
+    margin-bottom: 10%;
+}
+
+.password-container {
+    display: flex;
+    justify-content: center;
+}
+
+.password-container input {
+    width: 190px;
+    padding-top: 5px;
+    border: solid;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    border-color: #9755d9;
+    border-radius: 7px;
+    font-size: 15px;
+    
+}
+
+.password-container button {
+    font-size: 15px;
+    border: solid;
+    background-color: #7A28CB;
+    border-color: #7A28CB;
+    color: white;
+    border-radius: 7px;
+
 }
 /* 
  .container-options {
