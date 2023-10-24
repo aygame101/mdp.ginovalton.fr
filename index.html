@@ -4,43 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Générateur de Mot de Passe</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container-all">
-        <h1>Générateur de Mot de Passe</h1>
 
         <div class="container-options">
 
-            <input type="number" id="length" min="6" max="100" value="20">
-            <label for="length">Longueur du Mot de Passe</label>
+            <div><h1>mdp.ginovalton.fr</h1></div>
+
+            <div><h2>Générer votre MDP :</h2></div>
+            <div class="container-element">
+                <input type="number" id="length" min="6" max="100" value="20">
+                <label for="length">Longueur du Mot de Passe</label>
+            </div>
         
-            <select id="numPasswords"></select>
-            <label for="numPasswords">Nombre de Mots de Passe à Générer</label>
-        
-            <input type="checkbox" id="lowercase" checked>
-            <label for="lowercase">Lettres minuscules</label>
-        
-            <input type="checkbox" id="uppercase" checked>
-            <label for="uppercase">Lettres majuscules</label>
-        
-            <input type="checkbox" id="numbers" checked>
-            <label for="numbers">Chiffres</label>
-        
-            <input type="checkbox" id="specialChars">
-            <label for="specialChars">Caractères spéciaux</label>
-        
-            <input type="checkbox" id="removeSimilar" checked>
-            <label for="removeSimilar">Retirer les caractères similaires</label>
+            <div class="container-element">
+                <select id="numPasswords"></select>
+                <label for="numPasswords">Nombre de mots de passe</label>
+            </div>
+
+            <div class="container-element">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Lettres minuscules</label>
+            </div>
+
+            <div class="container-element">
+                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase">Lettres majuscules</label>
+            </div>
+
+            <div class="container-element">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Chiffres</label>
+            </div>
+
+            <div class="container-element">
+                <input type="checkbox" id="specialChars">
+                <label for="specialChars">Caractères spéciaux</label>
+            </div>
+
+            <div class="container-element">
+                <input type="checkbox" id="removeSimilar" checked>
+                <label for="removeSimilar">Retirer les caractères similaires</label>
+            </div>
 
             <button id="generate">Générer</button>
 
-        </div>
+            <div class="result">
 
-        <div class="result">
-
-            <label for="password-output">Mots de Passe :</label>
-            <div class="password-container"></div>
+                <label for="password-output"></label>
+                <div class="password-container"></div>
+    
+            </div>
             
         </div>
 
