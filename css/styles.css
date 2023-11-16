@@ -18,8 +18,8 @@ h2 {
 }
 
 .container-all {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
@@ -79,11 +79,11 @@ h2 {
 }
 
 .password-container .password-entry {
-    margin-bottom: 10px; /* Espacement entre les entrées de mot de passe */
+    margin-bottom: 10px;
 }
 
 .password-container input, .password-container button {
-    margin: 5px; /* Espacement autour des entrées de mot de passe et des boutons */
+    margin: 5px;
 }
 
 .password-container input {
@@ -117,16 +117,3 @@ h2 {
 input, select {
     border-radius: 3px;
 }
-
-/* 
- .container-options {
-    display: inline-block;
-    margin-right: 3%;
-    margin-left: 3%;
-}
-
-
-input, select, label {
-    display: inline-block;
-    width: 100%;
-} */

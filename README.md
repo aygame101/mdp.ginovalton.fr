@@ -2,8 +2,8 @@
 Générateur de MDPs (et Gestionnaire de MDPs après également).
 
 ### Done
-- Génération des MDPs
-- Correction du CSS
+- Génération des MDPs.
+- Correction du CSS.
 
 ### To do
 - DNS et hebergement.
