@@ -72,6 +72,9 @@ document.addEventListener("DOMContentLoaded", function () {
             copyButton.className = "copy-button";
             passwordContainer.appendChild(copyButton);
 
+            // Ajoutez un saut de ligne après chaque bouton de copie
+            passwordContainer.appendChild(document.createElement("br"))
+
             // Associez le bouton de copie au champ d'entrée correspondant
             copyButton.addEventListener("click", function () {
                 passwordInput.select();
