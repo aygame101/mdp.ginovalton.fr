@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const specialCharsCheckbox = document.getElementById("specialChars");
     const removeSimilarCheckbox = document.getElementById("removeSimilar");
     const generateButton = document.getElementById("generate");
-    const copyButtons = document.querySelectorAll(".copy-button"); // Boutons de copie
     const passwordContainer = document.querySelector(".password-container"); // Conteneur pour les mots de passe
 
     // Générez dynamiquement les options de 1 à 50
