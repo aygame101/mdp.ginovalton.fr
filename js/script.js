@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 setTimeout(function() {
                     copyButton.style.backgroundColor = "#7A28CB";
                     copyButton.style.color = "white" // Change la couleur en bleu après 5 secondes
-                }, 1500); // 5000 millisecondes équivalent à 5 secondes
+                }, 2000); // 5000 millisecondes équivalent à 5 secondes
             }
 
             copyButton.onclick = changeBackgroundColor;
