@@ -66,11 +66,28 @@ document.addEventListener("DOMContentLoaded", function () {
             passwordInput.readOnly = true;
             passwordContainer.appendChild(passwordInput);
 
-            // Créez un bouton de copie
+            // Bouton copy mdp
             const copyButton = document.createElement("button");
             copyButton.textContent = "Copier";
             copyButton.className = "copy-button";
+            copyButton.style.transition = "background-color 0.5s"; // Ajoute la transition
+
+            function changeBackgroundColor() {
+              // Change le fond du bouton en rouge
+              copyButton.style.backgroundColor = "white";
+              copyButton.style.color = "#7A28CB";
+
+                // Planifie un autre changement de couleur après 5 secondes
+                setTimeout(function() {
+                    copyButton.style.backgroundColor = "#7A28CB";
+                    copyButton.style.color = "white" // Change la couleur en bleu après 5 secondes
+                }, 1500); // 5000 millisecondes équivalent à 5 secondes
+            }
+
+            copyButton.onclick = changeBackgroundColor;
             passwordContainer.appendChild(copyButton);
+            
+            
 
             // Ajoutez un saut de ligne après chaque bouton de copie
             passwordContainer.appendChild(document.createElement("br"))
