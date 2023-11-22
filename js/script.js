@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const numbersCheckbox = document.getElementById("numbers");
     const specialCharsCheckbox = document.getElementById("specialChars");
     const removeSimilarCheckbox = document.getElementById("removeSimilar");
-    const generateButton = document.getElementById("generate");
+    const generateButton = document.getElementById("generate"); // on va recup l'id du bouton, on le met dans notre const generateButton
     const passwordContainer = document.querySelector(".password-container"); // Conteneur pour les mots de passe
 
     // Générez dynamiquement les options de 1 à 50
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         numPasswordsSelect.appendChild(option);
     }
 
-    generateButton.addEventListener("click", generatePasswords);
+    generateButton.addEventListener("click", generatePasswords); // on regarde quand le bouton est cliqué, quand il est cliqué on lance la fonction generatePasswords 
 
     function generatePasswords() {
         const numPasswords = parseInt(numPasswordsSelect.value); // Nombre de mots de passe à générer
