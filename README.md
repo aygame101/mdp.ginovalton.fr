@@ -5,9 +5,9 @@ Générateur de MDPs (et Gestionnaire de MDPs après également).
 - Génération des MDPs.
 - Correction du CSS.
 - DNS et hebergement.
+- Faire un appel de la fonction générer mdp dès le chargement de la page.
 
 ### To do
-- Faire un appel de la fonction générer mdp dès le chargement de la page.
 - Génération de phrase (mot) de passe. Plus sécurisé, et beaucoup plus simple à retenir. Exemple : ChatBleuQuiCours. En plus de cela on remplace quelques lettres par des caractères et chiffres : Ch4tBl€uQu1C0urs
 
 ### Pour aller plus loin
