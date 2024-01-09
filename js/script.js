@@ -99,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    generatePasswords();
 
     
 });
